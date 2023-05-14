@@ -25,6 +25,6 @@ let calculator = {
     },
 
     addToInput: function(str) {
-        this.input.value += str; 
+        this.input.value += str;
     }
 }
