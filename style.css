@@ -24,3 +24,21 @@ button:active {
     font-weight: bold;
     background-color: silver;
 }
+
+.left-panel, .right-panel {
+    display: inline-block;
+    vertical-align: top;
+    margin: .3rem;
+}
+
+button.big-button {
+    height: 6.1rem;
+}
+
+button.result {
+    background-color: lightskyblue;
+}
+
+button.clear {
+    background-color: lightsalmon;
+}
