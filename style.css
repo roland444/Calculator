@@ -5,6 +5,23 @@ input {
     border: 1px solid silver;
     font-size: 2rem;
     text-align: right;
+    border-radius: 10px;
+}
+
+body {
+    background: linear-gradient(to right, #6faf57, #e9e39c);
+    
+}
+
+.calc-container {
+    background: linear-gradient(to bottom left, #dad05b, #8fe270);
+    margin: 10% auto;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
 }
 
 .numbers button, .operators button {
@@ -14,6 +31,7 @@ input {
     margin: .1rem;
     border: 2px solid silver;
     outline-width: 0;
+    border-radius: 10px;
 }
 
 button:hover {
